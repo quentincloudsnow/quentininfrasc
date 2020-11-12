@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_alias">
+    <sys_alias action="INSERT_OR_UPDATE">
+        <configuration_template/>
+        <connection_type>sys_connection</connection_type>
+        <id>x_snc_quentin_it_s.quentin</id>
+        <multiple_connections>false</multiple_connections>
+        <name>quentin</name>
+        <parent/>
+        <retry_policy display_value="Default SFTP Retry Policy">e385484773100010e3a71afe2ff6a709</retry_policy>
+        <sys_class_name>sys_alias</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-12 01:20:50</sys_created_on>
+        <sys_id>06aa8bebdb182410f5294e68139619d6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_quentin_it_s.quentin</sys_name>
+        <sys_package display_value="QUENTIN IT SERVICE CATALOG" source="x_snc_quentin_it_s">8cd6c727db182410f5294e68139619f0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="QUENTIN IT SERVICE CATALOG">8cd6c727db182410f5294e68139619f0</sys_scope>
+        <sys_update_name>sys_alias_06aa8bebdb182410f5294e68139619d6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-12 01:20:50</sys_updated_on>
+        <type>credential</type>
+    </sys_alias>
+</record_update>

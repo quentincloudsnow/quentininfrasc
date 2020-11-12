@@ -1,0 +1,971 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <ih_action>true</ih_action>
+        <internal_name>quentin_restart_linux_server</internal_name>
+        <label_cache>[{"name":"{{action.ipaddress}}","label":"action➛ipaddress","type":"action","ref":""},{"name":"{{action.ip}}","label":"action➛ip","type":"action","ref":""}]</label_cache>
+        <latest_snapshot>d4bbcb6fdb182410f5294e681396198d</latest_snapshot>
+        <master_snapshot>e0bb0f6fdb182410f5294e6813961908</master_snapshot>
+        <name>Quentin Restart Linux Server</name>
+        <natlang/>
+        <outputs/>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-12 01:13:50</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a219c36bdb182410f5294e681396191a</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Quentin Restart Linux Server</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="QUENTIN IT SERVICE CATALOG" source="x_snc_quentin_it_s">8cd6c727db182410f5294e68139619f0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="QUENTIN IT SERVICE CATALOG">8cd6c727db182410f5294e68139619f0</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_a219c36bdb182410f5294e681396191a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-12 01:25:11</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=a219c36bdb182410f5294e681396191a"/>
+    <sys_variable_value action="delete_multiple" query="document_key=a219c36bdb182410f5294e681396191a"/>
+    <sys_hub_step_instance action="delete_multiple" query="action=a219c36bdb182410f5294e681396191a^sys_idNOT IN3eab8b6fdb182410f5294e68139619de"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Quentin Restart Linux Server">a219c36bdb182410f5294e681396191a</action>
+        <cid>289cc07b-3bc3-4d8e-b489-d29514d6434d</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>SSH step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="SSH">761bdfa073332300673d94596bf6a72d</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-12 01:25:02</sys_created_on>
+        <sys_id>3eab8b6fdb182410f5294e68139619de</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="QUENTIN IT SERVICE CATALOG">8cd6c727db182410f5294e68139619f0</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-12 01:25:02</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=3eab8b6fdb182410f5294e68139619de"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>3eab8b6fdb182410f5294e68139619de</document_key>
+        <order>550</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-12 01:25:03</sys_created_on>
+        <sys_id>0bab8b6fdb182410f5294e68139619ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-12 01:25:03</sys_updated_on>
+        <value>2d20f2760a0006bc095bf17ae4e0d4ee</value>
+        <variable display_value="">37ddd72473332300673d94596bf6a781</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>3eab8b6fdb182410f5294e68139619de</document_key>
+        <order>650</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-12 01:25:03</sys_created_on>
+        <sys_id>43ab8b6fdb182410f5294e68139619ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-12 01:25:03</sys_updated_on>
+        <value>sudo reboot now</value>
+        <variable display_value="">7c1e5b2473332300673d94596bf6a76b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>3eab8b6fdb182410f5294e68139619de</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-12 01:25:03</sys_created_on>
+        <sys_id>8fab8b6fdb182410f5294e68139619ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-12 01:25:03</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">92bd572473332300673d94596bf6a7ff</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>3eab8b6fdb182410f5294e68139619de</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-12 01:25:03</sys_created_on>
+        <sys_id>beab8b6fdb182410f5294e68139619ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-12 01:25:03</sys_updated_on>
+        <value>06aa8bebdb182410f5294e68139619d6</value>
+        <variable display_value="">5efc532473332300673d94596bf6a747</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>3eab8b6fdb182410f5294e68139619de</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-12 01:25:03</sys_created_on>
+        <sys_id>cbab8b6fdb182410f5294e68139619ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-12 01:25:03</sys_updated_on>
+        <value>define_connection_inline</value>
+        <variable display_value="">843b1fa073332300673d94596bf6a702</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=3eab8b6fdb182410f5294e68139619de"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>capabilities</field>
+        <id>3eab8b6fdb182410f5294e68139619de</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-12 01:25:03</sys_created_on>
+        <sys_id>32ab8b6fdb182410f5294e68139619ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-12 01:25:03</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>command</field>
+        <id>3eab8b6fdb182410f5294e68139619de</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-12 01:25:03</sys_created_on>
+        <sys_id>3eab8b6fdb182410f5294e68139619ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-12 01:25:03</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection</field>
+        <id>3eab8b6fdb182410f5294e68139619de</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-12 01:25:03</sys_created_on>
+        <sys_id>b6ab8b6fdb182410f5294e68139619ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-12 01:25:03</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>credential_alias</field>
+        <id>3eab8b6fdb182410f5294e68139619de</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-12 01:25:03</sys_created_on>
+        <sys_id>f6ab8b6fdb182410f5294e68139619eb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-12 01:25:03</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>host</field>
+        <id>3eab8b6fdb182410f5294e68139619de</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-12 01:25:03</sys_created_on>
+        <sys_id>f2ab8b6fdb182410f5294e68139619ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-12 01:25:03</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
+        <value>{{action.ip}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>mid_application</field>
+        <id>3eab8b6fdb182410f5294e68139619de</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-12 01:25:03</sys_created_on>
+        <sys_id>7aab8b6fdb182410f5294e68139619ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-12 01:25:03</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_input action="delete_multiple" query="model=a219c36bdb182410f5294e681396191a^sys_idNOT INc059876bdb182410f5294e68139619dd"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=3bf346d2-1afc-467a-b14f-75ebb1f96fcd</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>ip</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>ip</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Quentin Restart Linux Server">a219c36bdb182410f5294e681396191a</model>
+        <model_id>a219c36bdb182410f5294e681396191a</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_a219c36bdb182410f5294e681396191a</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-12 01:14:45</sys_created_on>
+        <sys_id>c059876bdb182410f5294e68139619dd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="QUENTIN IT SERVICE CATALOG">8cd6c727db182410f5294e68139619f0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-12 01:14:45</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_step_instance action="delete_multiple" query="action=a219c36bdb182410f5294e681396191a^sys_idNOT IN3eab8b6fdb182410f5294e68139619de"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Quentin Restart Linux Server">a219c36bdb182410f5294e681396191a</action>
+        <cid>289cc07b-3bc3-4d8e-b489-d29514d6434d</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>SSH step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="SSH">761bdfa073332300673d94596bf6a72d</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-12 01:25:02</sys_created_on>
+        <sys_id>3eab8b6fdb182410f5294e68139619de</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="QUENTIN IT SERVICE CATALOG">8cd6c727db182410f5294e68139619f0</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-12 01:25:02</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=3eab8b6fdb182410f5294e68139619de"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>3eab8b6fdb182410f5294e68139619de</document_key>
+        <order>550</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-12 01:25:03</sys_created_on>
+        <sys_id>0bab8b6fdb182410f5294e68139619ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-12 01:25:03</sys_updated_on>
+        <value>2d20f2760a0006bc095bf17ae4e0d4ee</value>
+        <variable display_value="">37ddd72473332300673d94596bf6a781</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>3eab8b6fdb182410f5294e68139619de</document_key>
+        <order>650</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-12 01:25:03</sys_created_on>
+        <sys_id>43ab8b6fdb182410f5294e68139619ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-12 01:25:03</sys_updated_on>
+        <value>sudo reboot now</value>
+        <variable display_value="">7c1e5b2473332300673d94596bf6a76b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>3eab8b6fdb182410f5294e68139619de</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-12 01:25:03</sys_created_on>
+        <sys_id>8fab8b6fdb182410f5294e68139619ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-12 01:25:03</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">92bd572473332300673d94596bf6a7ff</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>3eab8b6fdb182410f5294e68139619de</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-12 01:25:03</sys_created_on>
+        <sys_id>beab8b6fdb182410f5294e68139619ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-12 01:25:03</sys_updated_on>
+        <value>06aa8bebdb182410f5294e68139619d6</value>
+        <variable display_value="">5efc532473332300673d94596bf6a747</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>3eab8b6fdb182410f5294e68139619de</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-12 01:25:03</sys_created_on>
+        <sys_id>cbab8b6fdb182410f5294e68139619ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-12 01:25:03</sys_updated_on>
+        <value>define_connection_inline</value>
+        <variable display_value="">843b1fa073332300673d94596bf6a702</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=3eab8b6fdb182410f5294e68139619de"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>capabilities</field>
+        <id>3eab8b6fdb182410f5294e68139619de</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-12 01:25:03</sys_created_on>
+        <sys_id>32ab8b6fdb182410f5294e68139619ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-12 01:25:03</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>command</field>
+        <id>3eab8b6fdb182410f5294e68139619de</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-12 01:25:03</sys_created_on>
+        <sys_id>3eab8b6fdb182410f5294e68139619ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-12 01:25:03</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection</field>
+        <id>3eab8b6fdb182410f5294e68139619de</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-12 01:25:03</sys_created_on>
+        <sys_id>b6ab8b6fdb182410f5294e68139619ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-12 01:25:03</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>credential_alias</field>
+        <id>3eab8b6fdb182410f5294e68139619de</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-12 01:25:03</sys_created_on>
+        <sys_id>f6ab8b6fdb182410f5294e68139619eb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-12 01:25:03</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>host</field>
+        <id>3eab8b6fdb182410f5294e68139619de</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-12 01:25:03</sys_created_on>
+        <sys_id>f2ab8b6fdb182410f5294e68139619ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-12 01:25:03</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
+        <value>{{action.ip}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>mid_application</field>
+        <id>3eab8b6fdb182410f5294e68139619de</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-12 01:25:03</sys_created_on>
+        <sys_id>7aab8b6fdb182410f5294e68139619ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-12 01:25:03</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_a219c36bdb182410f5294e681396191a^sys_idNOT IN90598b6bdb182410f5294e681396191b"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>ip</element>
+        <help/>
+        <hint/>
+        <label>ip</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_a219c36bdb182410f5294e681396191a</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-12 01:14:46</sys_created_on>
+        <sys_id>90598b6bdb182410f5294e681396191b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="QUENTIN IT SERVICE CATALOG" source="x_snc_quentin_it_s">8cd6c727db182410f5294e68139619f0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="QUENTIN IT SERVICE CATALOG">8cd6c727db182410f5294e68139619f0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-12 01:14:46</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=a219c36bdb182410f5294e681396191a^sys_idNOT IN59bb0f6fdb182410f5294e681396196d"/>
+    <sys_hub_action_plan action="INSERT_OR_UPDATE">
+        <action_id display_value="Quentin Restart Linux Server">a219c36bdb182410f5294e681396191a</action_id>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"59bb0f6fdb182410f5294e681396196d","name":"plan"}}</plan>
+        <snapshot>d4bbcb6fdb182410f5294e681396198d</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-12 01:25:13</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>59bb0f6fdb182410f5294e681396196d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-12 01:25:13</sys_updated_on>
+    </sys_hub_action_plan>
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_template/>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>quentin_restart_linux_server</internal_name>
+        <label_cache>[{"name":"{{action.ipaddress}}","label":"action➛ipaddress","type":"action","ref":""},{"name":"{{action.ip}}","label":"action➛ip","type":"action","ref":""}]</label_cache>
+        <master>true</master>
+        <name>Quentin Restart Linux Server</name>
+        <natlang/>
+        <outputs/>
+        <parent_action display_value="Quentin Restart Linux Server">a219c36bdb182410f5294e681396191a</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-12 01:25:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e0bb0f6fdb182410f5294e6813961908</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="QUENTIN IT SERVICE CATALOG">8cd6c727db182410f5294e68139619f0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-12 01:25:09</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=e0bb0f6fdb182410f5294e6813961908"/>
+    <sys_variable_value action="delete_multiple" query="document_key=e0bb0f6fdb182410f5294e6813961908"/>
+    <sys_hub_step_instance action="delete_multiple" query="action=e0bb0f6fdb182410f5294e6813961908^sys_idNOT INacbb0f6fdb182410f5294e6813961911"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Quentin Restart Linux Server">e0bb0f6fdb182410f5294e6813961908</action>
+        <cid>289cc07b-3bc3-4d8e-b489-d29514d6434d</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>SSH step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="SSH">761bdfa073332300673d94596bf6a72d</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-12 01:25:10</sys_created_on>
+        <sys_id>acbb0f6fdb182410f5294e6813961911</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="QUENTIN IT SERVICE CATALOG">8cd6c727db182410f5294e68139619f0</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-12 01:25:10</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=acbb0f6fdb182410f5294e6813961911"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>acbb0f6fdb182410f5294e6813961911</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-12 01:25:10</sys_created_on>
+        <sys_id>30bb0f6fdb182410f5294e681396191a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-12 01:25:10</sys_updated_on>
+        <value>define_connection_inline</value>
+        <variable display_value="">843b1fa073332300673d94596bf6a702</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>acbb0f6fdb182410f5294e6813961911</document_key>
+        <order>550</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-12 01:25:10</sys_created_on>
+        <sys_id>7cbb0f6fdb182410f5294e6813961919</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-12 01:25:10</sys_updated_on>
+        <value>2d20f2760a0006bc095bf17ae4e0d4ee</value>
+        <variable display_value="">37ddd72473332300673d94596bf6a781</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>acbb0f6fdb182410f5294e6813961911</document_key>
+        <order>650</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-12 01:25:10</sys_created_on>
+        <sys_id>b4bb0f6fdb182410f5294e681396191a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-12 01:25:10</sys_updated_on>
+        <value>sudo reboot now</value>
+        <variable display_value="">7c1e5b2473332300673d94596bf6a76b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>acbb0f6fdb182410f5294e6813961911</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-12 01:25:10</sys_created_on>
+        <sys_id>b8bb0f6fdb182410f5294e6813961919</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-12 01:25:10</sys_updated_on>
+        <value>06aa8bebdb182410f5294e68139619d6</value>
+        <variable display_value="">5efc532473332300673d94596bf6a747</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>acbb0f6fdb182410f5294e6813961911</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-12 01:25:10</sys_created_on>
+        <sys_id>f0bb0f6fdb182410f5294e681396191a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-12 01:25:10</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">92bd572473332300673d94596bf6a7ff</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=acbb0f6fdb182410f5294e6813961911"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>capabilities</field>
+        <id>acbb0f6fdb182410f5294e6813961911</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-12 01:25:10</sys_created_on>
+        <sys_id>3cbb0f6fdb182410f5294e6813961918</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-12 01:25:10</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>command</field>
+        <id>acbb0f6fdb182410f5294e6813961911</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-12 01:25:10</sys_created_on>
+        <sys_id>38bb0f6fdb182410f5294e6813961919</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-12 01:25:10</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection</field>
+        <id>acbb0f6fdb182410f5294e6813961911</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-12 01:25:10</sys_created_on>
+        <sys_id>b0bb0f6fdb182410f5294e6813961919</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-12 01:25:10</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>credential_alias</field>
+        <id>acbb0f6fdb182410f5294e6813961911</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-12 01:25:10</sys_created_on>
+        <sys_id>78bb0f6fdb182410f5294e6813961918</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-12 01:25:10</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>host</field>
+        <id>acbb0f6fdb182410f5294e6813961911</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-12 01:25:10</sys_created_on>
+        <sys_id>fcbb0f6fdb182410f5294e6813961918</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-12 01:25:10</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
+        <value>{{action.ip}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>mid_application</field>
+        <id>acbb0f6fdb182410f5294e6813961911</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-12 01:25:10</sys_created_on>
+        <sys_id>74bb0f6fdb182410f5294e6813961919</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-12 01:25:10</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_input action="delete_multiple" query="model=e0bb0f6fdb182410f5294e6813961908^sys_idNOT INe8bb0f6fdb182410f5294e6813961909"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=3bf346d2-1afc-467a-b14f-75ebb1f96fcd</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>ip</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>ip</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Quentin Restart Linux Server">e0bb0f6fdb182410f5294e6813961908</model>
+        <model_id>e0bb0f6fdb182410f5294e6813961908</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_e0bb0f6fdb182410f5294e6813961908</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-12 01:25:10</sys_created_on>
+        <sys_id>e8bb0f6fdb182410f5294e6813961909</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="QUENTIN IT SERVICE CATALOG">8cd6c727db182410f5294e68139619f0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-12 01:25:10</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_step_instance action="delete_multiple" query="action=e0bb0f6fdb182410f5294e6813961908^sys_idNOT INacbb0f6fdb182410f5294e6813961911"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Quentin Restart Linux Server">e0bb0f6fdb182410f5294e6813961908</action>
+        <cid>289cc07b-3bc3-4d8e-b489-d29514d6434d</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>SSH step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="SSH">761bdfa073332300673d94596bf6a72d</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-12 01:25:10</sys_created_on>
+        <sys_id>acbb0f6fdb182410f5294e6813961911</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="QUENTIN IT SERVICE CATALOG">8cd6c727db182410f5294e68139619f0</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-12 01:25:10</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=acbb0f6fdb182410f5294e6813961911"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>acbb0f6fdb182410f5294e6813961911</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-12 01:25:10</sys_created_on>
+        <sys_id>30bb0f6fdb182410f5294e681396191a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-12 01:25:10</sys_updated_on>
+        <value>define_connection_inline</value>
+        <variable display_value="">843b1fa073332300673d94596bf6a702</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>acbb0f6fdb182410f5294e6813961911</document_key>
+        <order>550</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-12 01:25:10</sys_created_on>
+        <sys_id>7cbb0f6fdb182410f5294e6813961919</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-12 01:25:10</sys_updated_on>
+        <value>2d20f2760a0006bc095bf17ae4e0d4ee</value>
+        <variable display_value="">37ddd72473332300673d94596bf6a781</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>acbb0f6fdb182410f5294e6813961911</document_key>
+        <order>650</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-12 01:25:10</sys_created_on>
+        <sys_id>b4bb0f6fdb182410f5294e681396191a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-12 01:25:10</sys_updated_on>
+        <value>sudo reboot now</value>
+        <variable display_value="">7c1e5b2473332300673d94596bf6a76b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>acbb0f6fdb182410f5294e6813961911</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-12 01:25:10</sys_created_on>
+        <sys_id>b8bb0f6fdb182410f5294e6813961919</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-12 01:25:10</sys_updated_on>
+        <value>06aa8bebdb182410f5294e68139619d6</value>
+        <variable display_value="">5efc532473332300673d94596bf6a747</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>acbb0f6fdb182410f5294e6813961911</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-12 01:25:10</sys_created_on>
+        <sys_id>f0bb0f6fdb182410f5294e681396191a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-12 01:25:10</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">92bd572473332300673d94596bf6a7ff</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=acbb0f6fdb182410f5294e6813961911"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>capabilities</field>
+        <id>acbb0f6fdb182410f5294e6813961911</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-12 01:25:10</sys_created_on>
+        <sys_id>3cbb0f6fdb182410f5294e6813961918</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-12 01:25:10</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>command</field>
+        <id>acbb0f6fdb182410f5294e6813961911</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-12 01:25:10</sys_created_on>
+        <sys_id>38bb0f6fdb182410f5294e6813961919</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-12 01:25:10</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection</field>
+        <id>acbb0f6fdb182410f5294e6813961911</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-12 01:25:10</sys_created_on>
+        <sys_id>b0bb0f6fdb182410f5294e6813961919</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-12 01:25:10</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>credential_alias</field>
+        <id>acbb0f6fdb182410f5294e6813961911</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-12 01:25:10</sys_created_on>
+        <sys_id>78bb0f6fdb182410f5294e6813961918</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-12 01:25:10</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>host</field>
+        <id>acbb0f6fdb182410f5294e6813961911</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-12 01:25:10</sys_created_on>
+        <sys_id>fcbb0f6fdb182410f5294e6813961918</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-12 01:25:10</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
+        <value>{{action.ip}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>mid_application</field>
+        <id>acbb0f6fdb182410f5294e6813961911</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-12 01:25:10</sys_created_on>
+        <sys_id>74bb0f6fdb182410f5294e6813961919</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-12 01:25:10</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_e0bb0f6fdb182410f5294e6813961908^sys_idNOT IN64bb0f6fdb182410f5294e681396190f"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>ip</element>
+        <help/>
+        <hint/>
+        <label>ip</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_e0bb0f6fdb182410f5294e6813961908</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-12 01:25:10</sys_created_on>
+        <sys_id>64bb0f6fdb182410f5294e681396190f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="QUENTIN IT SERVICE CATALOG" source="x_snc_quentin_it_s">8cd6c727db182410f5294e68139619f0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="QUENTIN IT SERVICE CATALOG">8cd6c727db182410f5294e68139619f0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-12 01:25:10</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+</record_update>
